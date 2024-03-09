@@ -1,0 +1,17 @@
+.skillset-sec {
+    text-align: center;
+    background: var(--accent);
+    color: var(--default-bg);
+}
+.skillset-sec > h3 {
+    margin-bottom: 50px;
+    margin: 0 auto;
+}
+
+.skill {
+    display: inline-flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.trust-sec {
+    background: var(--accent);
+    color: var(--default-bg);
+    text-align: center;
+}
+
+.trust-wrap {
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.trust-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+}

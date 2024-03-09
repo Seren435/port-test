@@ -1,0 +1,37 @@
+nav {
+    background-color: var(--default-bg);
+    box-shadow: 10px 0px 8px 5px rgb(18, 18, 18);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    width: 100%;
+}
+nav > ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.menu-option {
+    font-size: 1.2rem;
+}
+.hire-btn {
+    background: var(--accent);
+    color: var(--default-bg);
+    border-radius: 20px;
+    padding: 7px 18px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 396px) {
+    nav {
+        text-align: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
